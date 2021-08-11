@@ -1,5 +1,3 @@
-# TODO, describe all files in this directory
-
 Directory that contains all of the ShapeAssembly specific logic that was used for the ShapeMOD experiments.
 
 None of the logic in this directory is need to run the novel shape generation / visual program induction experiments (see the task/ folder for that).
@@ -14,8 +12,8 @@ Pre-comptuted .prog files can be found at:
 
 ```
 chair.prog : https://drive.google.com/file/d/1mjXcnjh9hlT4eXqQ1su1x_h643IdafwP/view?usp=sharing
-table.prog : TODO
-storage.prog : TODO
+table.prog : https://drive.google.com/file/d/1nAVTCMu4xV9luXhgjVYGOTryl2Zwo0Z9/view?usp=sharing
+storage.prog : https://drive.google.com/file/d/1Qc6GmmSQrfSfEJN73yxHo4obc3Xs3fjT/view?usp=sharing
 ```
 
 To regenerate .prog files you can run a command like:
@@ -26,15 +24,7 @@ python3 make_prog_dataset.py parsed_data/chair_data/ program_datasets/chair.prog
 
 This will require pickled data parsed from PartNet into the parsed_data folder.
 
-These can be downloaded from:
-
-```
-chair_data.zip : https://drive.google.com/file/d/12un3Fk7k-vW8OnMZxh7_Pvq9b4leePIF/view?usp=sharing
-table_data.zip : https://drive.google.com/file/d/1TvXQy5tlUpwv2cQEcbsSb8Comil58DAv/view?usp=sharing
-storage_data.zip : https://drive.google.com/file/d/1hjul9RFOjduOpdeTYUj3c5bf3bIKAlMm/view?usp=sharing
-```
-
-or they can be re-generated with a command like (run from parse_files directory):
+These can be found as .zip files in that folder or they can be re-generated with a command like (run from parse_files directory):
 
 ```
 python3 json_parse.py chair ../parsed_data/chair ../tasks/data/chair/
