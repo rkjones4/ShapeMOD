@@ -1,0 +1,26 @@
+ADD_FUNCS = [
+    ('nfunc_1', (('Cuboid', 'f_bb_x * 1.0', 'f_var_0', 'f_bb_z * 1.0', 'b_1'), ('attach', 'i_bbox', 'f_1 * 0.5', 'f_var_1', 'f_1 * 0.5', 'f_1 * 0.5', 'f_var_2', 'f_1 * 0.5'))),
+    ('nfunc_2', (('Cuboid', 'f_var_0', 'f_var_1', 'f_var_2', 'b_1'), ('attach', 'i_bbox', 'f_1 * 0.5', 'f_1 * 0.0', 'f_1 * 0.5', 'f_1 * 0.5', 'f_1 * 1.0', 'f_var_3'))),
+    ('nfunc_4', (('attach', 'i_bbox', 'f_1 * 0.5', 'f_1 * 1.0', 'f_1 * 0.5', 'f_var_0', 'f_1 * 0.0', 'f_var_1'),)),
+    ('nfunc_9', (('Cuboid', 'f_var_0', 'f_var_1', 'f_var_2', 'b_var_0'), ('attach', 'i_var_0', 'f_1 * 0.5', 'f_1 * 0.0', 'f_1 * 0.5', 'f_var_3', 'f_var_4', 'f_var_5'))),
+    ('nfunc_10', (('Cuboid', 'f_var_0', 'f_var_1', 'f_var_2', 'b_var_0'), ('squeeze', 'i_bbox', 'i_var_0', 'c_bot', 'f_var_3', 'f_var_4'))),
+    ('nfunc_11', (('nfunc_10', 'f_var_0', 'f_bb_y * 1.0', 'f_var_0 * 1.0', 'b_var_0', 'i_bbox', 'f_var_0 * 0.5', 'f_var_1'), ('reflect', 'c_X'))),
+    ('nfunc_13', (('nfunc_1', 'f_var_0', 'f_1 * 1.0', 'f_1 * 0.0'), ('nfunc_2', 'f_var_1', 'f_var_2', 'f_var_3', 'f_1 * 0.5'), ('attach', 'i_ret_0', 'f_1 * 0.5', 'f_1 * 1.0', 'f_1 * 0.5', 'f_1 * 0.5', 'f_var_4', 'f_1 * 0.5'))),
+    ('nfunc_16', (('Cuboid', 'f_var_0', 'f_var_1', 'f_var_2', 'b_1'), ('nfunc_4', 'f_1 * 0.5', 'f_var_3'))),
+    ('nfunc_17', (('nfunc_9', 'f_var_0', 'f_var_1', 'f_var_2', 'b_var_0', 'i_bbox', 'f_var_3', 'f_1 * 1.0', 'f_var_4'),)),
+    ('nfunc_18', (('nfunc_10', 'f_var_0', 'f_bb_y * 1.0', 'f_var_1', 'b_var_0', 'i_bbox', 'f_var_2', 'f_var_3'),)),
+    ('nfunc_19', (('nfunc_11', 'f_var_0', 'b_var_0', 'f_var_1'), ('nfunc_11', 'f_var_0 * 0.95', 'b_var_0', 'f_1 * 1.0 + f_var_1 * -1.0'))),
+    ('nfunc_20', (('Cuboid', 'f_var_0', 'f_var_1', 'f_var_2', 'b_var_0'), ('nfunc_4', 'f_var_3', 'f_var_4'))),
+    ('nfunc_21', (('nfunc_17', 'f_bb_x * 1.0', 'f_var_0', 'f_var_1', 'b_1', 'f_1 * 0.5', 'f_var_2'), ('Cuboid', 'f_var_3', 'f_var_4', 'f_var_5', 'b_1'), ('attach', 'i_ret_0', 'f_1 * 0.5', 'f_var_6', 'f_var_7', 'f_1 * 0.5', 'f_1 * 1.0', 'f_1 * 0.5'))),
+    ('nfunc_22', (('nfunc_16', 'f_bb_x * 1.0', 'f_var_0', 'f_bb_z * 1.0', 'f_1 * 0.5'), ('nfunc_10', 'f_var_1', 'f_var_2', 'f_var_3', 'b_1', 'i_ret_0', 'f_var_4', 'f_var_5'))),
+    ('nfunc_23', (('nfunc_18', 'f_var_0', 'f_var_1', 'b_var_0', 'f_var_2', 'f_var_3'), ('reflect', 'c_var_0'))),
+    ('nfunc_24', (('Cuboid', 'f_var_0', 'f_var_1', 'f_var_2', 'b_1'), ('attach', 'i_var_0', 'f_var_3', 'f_1 * 0.5', 'f_var_4', 'f_var_5', 'f_var_6', 'f_var_7'))),
+    ('nfunc_25', (('nfunc_9', 'f_var_0', 'f_var_1', 'f_var_2', 'b_var_0', 'i_var_0', 'f_1 * 0.5', 'f_var_3', 'f_var_4'), ('nfunc_4', 'f_1 * 0.5', 'f_var_5'))),
+]
+RM_FUNCS = [
+    'nfunc_4',
+    'nfunc_2',
+    'nfunc_1',
+    'nfunc_11',
+    'nfunc_16',
+]
