@@ -14,6 +14,8 @@ Presented at [Siggraph 2021](https://s2021.siggraph.org/).
 
 Project Page: https://rkjones4.github.io/shapeMOD.html
 
+Video: https://www.youtube.com/watch?v=bJFNtuR5M7k
+
 ## Citations
 ```
   @article{jones2021shapeMOD,
